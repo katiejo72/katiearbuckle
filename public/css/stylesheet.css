@@ -1,60 +1,24 @@
 /* Stylesheet for katiearbuckle.com */
 
+/* background */
 body {
 	background-image: url("../images/Binary-Gray.jpg");
 	background-attachment: fixed;
 	font-family: Ubuntu, sans-serif;
 }
 
+
+/* content sections shared stylings */
 div {
 	box-shadow: 10px 10px 10px #888888;
-	padding: 10px 40px 20px 40px;
+	padding: 20px 30px 20px 30px;
 	margin-right: -20px;
 	margin-left: -20px;
 	color: white;
 }
 
-#spacer {
-	height: 75px;
-	box-shadow: none;
-}
 
-#header {
-	background-color: #00CED1;
-	color: white;
-	padding: 10px 40px 10px 40px;
-}
-
-#name {
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 40px;
-	color: white;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-#title {
-	font-size: 20px;
-}
-
-h3 {
-	font-family: 'Fredericka the Great', cursive;
-	font-size: 30px;
-	font-weight: normal;
-}
-
-#about {
-	background-color: #808080;
-}
-
-#skills {
-	background-color: #9ACD32;
-}
-
-#projects {
-	background-color: #69D2E7;
-}
-
+/* links */
 a {
 	text-decoration: none;
 	color: white;
@@ -66,6 +30,53 @@ a:hover {
 
 a:visited {
 	color: #808080;
+}
+
+
+/* spacer between content sections */
+#spacer {
+	height: 75px;
+	box-shadow: none;
+}
+
+
+/* header section */
+#header {
+	background-color: #00CED1;
+	padding: 10px 40px 10px 40px;
+}
+
+#name {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#title {
+	font-size: 20px;
+}
+
+
+/* content section headings */
+h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+
+/* content section individual stylings */
+#about {
+	background-color: #808080;
+}
+
+#skills {
+	background-color: #9ACD32;
+}
+
+#projects {
+	background-color: #69D2E7;
 }
 
 #experience {
@@ -83,4 +94,30 @@ a:visited {
 #contact {
 	background-color: #008080;
 	margin-bottom: 20px;
+}
+
+
+/* content section table elements */
+td {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#pic {
+	width: 30%;
+	height: 300px;
+}
+
+#icon {
+	width: 75px;
+	height: 75px;
+}
+
+#heading {
+	width: 20%;
+	text-align: center;
+}
+
+#text {
+	width: 50%;
 }
