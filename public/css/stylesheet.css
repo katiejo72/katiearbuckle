@@ -8,6 +8,10 @@ body {
 
 div {
 	box-shadow: 10px 10px 10px #888888;
+	padding: 10px 40px 20px 40px;
+	margin-right: -20px;
+	margin-left: -20px;
+	color: white;
 }
 
 #spacer {
@@ -19,8 +23,6 @@ div {
 	background-color: #00CED1;
 	color: white;
 	padding: 10px 40px 10px 40px;
-	margin-right: -20px;
-	margin-left: -20px;
 }
 
 #name {
@@ -41,34 +43,16 @@ h3 {
 	font-weight: normal;
 }
 
-div div {
-	box-shadow: none;
-}
-
 #about {
 	background-color: #808080;
-	color: white;
-	text-align: right;
-	padding: 10px 40px 20px 40px;
-	margin-right: -20px;
-	margin-left: -20px;
 }
 
 #skills {
 	background-color: #9ACD32;
-	color: white;
-	padding: 10px 40px 20px 40px;
-	margin-right: -20px;
-	margin-left: -20px;
 }
 
 #projects {
 	background-color: #69D2E7;
-	color: white;
-	text-align: right;
-	padding: 10px 40px 20px 40px;
-	margin-right: -20px;
-	margin-left: -20px;
 }
 
 a {
@@ -86,35 +70,17 @@ a:visited {
 
 #experience {
 	background-color: #800080;
-	color: white;
-	padding: 10px 40px 20px 40px;
-	margin-right: -20px;
-	margin-left: -20px;
 }
 
 #education {
 	background-color: #DAA520;
-	color: white;
-	text-align: right;
-	padding: 10px 40px 20px 40px;
-	margin-right: -20px;
-	margin-left: -20px;
 }
 
 #hobbies {
 	background-color: #6B8E23;
-	color: white;
-	padding: 10px 40px 20px 40px;
-	margin-right: -20px;
-	margin-left: -20px;
 }
 
 #contact {
 	background-color: #008080;
-	color: white;
-	text-align: right;
-	padding: 10px 40px 20px 40px;
-	margin-right: -20px;
 	margin-bottom: 20px;
-	margin-left: -20px;
 }
