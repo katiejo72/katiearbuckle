@@ -35,7 +35,7 @@ a:visited {
 
 /* spacer between content sections */
 #spacer {
-	height: 75px;
+	height: 50px;
 	box-shadow: none;
 }
 
@@ -99,8 +99,8 @@ h1 {
 
 /* content section table elements */
 td {
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 #pic {
@@ -109,7 +109,7 @@ td {
 }
 
 #icon {
-	width: 75px;
+	width: 100px;
 	height: 75px;
 }
 
