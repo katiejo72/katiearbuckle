@@ -11,7 +11,7 @@ body {
 
 /* content sections shared stylings */
 div {
-	box-shadow: 10px 10px 10px #888888;
+	box-shadow: 0px 10px 10px #888888;
 	margin-right: -1%;
 	margin-left: -1%;
 	color: white;
@@ -96,17 +96,21 @@ h1 {
 	margin-bottom: 20px;
 }
 
+li {
+	padding-bottom: 10px;
+}
+
 
 /* content section table elements */
 table {
-	width: 100%;
+	width: 98%;
 	margin-left: 1%;
 	margin-right: 1%;
 }
 
 td {
 	padding: 1% 1.5%;
-	border: 1px solid white;
+	/* border: 1px solid white; */
 }
 
 .pic {
@@ -122,7 +126,6 @@ td {
 
 .heading {
 	width: 20%;
-	/* text-align: center; */
 }
 
 .text {
@@ -131,4 +134,18 @@ td {
 
 .right {
 	text-align: right;
+	padding-right: 30px;
+}
+
+.star {
+	height: 30px;
+	width: 30px;
+}
+
+#star {
+	padding: 1.5% 0;
+}
+
+#star ul {
+	margin: 0;
 }
