@@ -159,3 +159,8 @@ td {
 #star ul {
 	margin: 0;
 }
+
+#email {
+	text-align: center;
+	width: 300px;
+}
